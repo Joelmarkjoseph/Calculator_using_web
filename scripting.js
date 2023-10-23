@@ -58,7 +58,8 @@ function funx(){
 }
 function funac(){
     document.getElementById('Input_field').textContent=' ';
-    
+    ans=0;
+    arr=[];
 }
 function funeq(){
     ans=arr[0];
