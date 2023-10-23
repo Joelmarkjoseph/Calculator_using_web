@@ -1,4 +1,5 @@
 var arr=[];
+var ans=0;
 function fun1(){
     document.getElementById('Input_field').textContent+='1 ';
     arr.push(1);
@@ -57,21 +58,32 @@ function funx(){
 }
 function funac(){
     document.getElementById('Input_field').textContent=' ';
-    arr=[];
+    
 }
 function funeq(){
-    var ans=arr[0];
+    ans=arr[0];
     if(arr[1]==="+"){
         ans+=arr[2];
+        arr=[];
+        arr.push(ans);
     }
     if(arr[1]==="-"){
         ans-=arr[2];
+        arr=[];
+        arr.push(ans);
+
     }
     if(arr[1]==="/"){
         ans/=arr[2];
+        arr=[];
+        arr.push(ans);
+
     }
     if(arr[1]==="x"){
         ans*=arr[2];
+        arr=[];
+        arr.push(ans);
+
     }
     document.getElementById('Input_field').textContent=ans;
 }
