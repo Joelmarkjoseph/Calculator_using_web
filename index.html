@@ -5,15 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="frame">
-        <div class="screen">
-
+    <div class="main" align="center">
+        <div class="frame">
+            <div class="screen" align="center">
+            <h1 id="Input_field"></h1>
+            </div>
+            <div class="buttons">
+                <div class="row1">
+                    <div class="btn">
+                        <button>%</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="funac()">AC</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="funcl()">C</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="fundiv()">/</button>
+                    </div>
+                </div>
+                <div class="row1">
+                    <div class="btn">
+                        <button onclick="fun1()">1</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="fun2()">2</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="fun3()">3</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="funplus()">+</button>
+                    </div>
+                </div>
+                <div class="row1">
+                    <div class="btn">
+                        <button onclick="fun4()">4</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="fun5()">5</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="fun6()">6</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="funmin()">-</button>
+                    </div>
+                </div>
+                <div class="row1">
+                    <div class="btn">
+                        <button onclick="fun7()">7</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="fun8()">8</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="fun9()">9</button>
+                    </div>
+                    <div class="btn">
+                        <button onclick="funx()">X</button>
+                    </div>
+                </div>
+                </div>
+                <div class="row2">
+                    <div class="btn"id="btn0">
+                        <button onclick="fun0()">0</button>
+                    </div>
+                    <div class="btn"id="btn=">
+                        <button onclick="funeq()">=</button>
+                    </div>
+                </div>
+            
+              
+            </div>   
         </div>
-        <div class="buttons">
-
-        </div>   
     </div>
+   <script src="scripting.js"></script>
 </body>
 </html>
