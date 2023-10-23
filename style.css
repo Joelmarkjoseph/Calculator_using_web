@@ -1,12 +1,22 @@
 body{
     background-color: rgb(0, 0, 99);
 }
+.main{
+    align-items: center;
+}
+.screen{
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 10px;
+}
 .frame{
     margin-top: 100px;
     border-radius: 10px;
     border-style: solid;
     border-color: white;
-    width: fit-content;
+    width: 23em;
 }
 h1{
     font-size: xx-large;
@@ -15,6 +25,15 @@ h1{
     justify-content: space-around;
     display: flex;
 }
+.row2{
+    justify-content: space-between;
+    display: flex;
+    align-items:end;
+}
+#btn0{
+    padding-left: 105px;
+}
+
 input{
     padding-top: 30px;
     margin-top: 10px;
@@ -24,12 +43,18 @@ input{
 }
 button{
     margin: 10px;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 23px 10px 23px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     font-weight: bolder;
     font-size: 30PX;
 }
+#acbtn{
+    padding: 0px;
+}
 #Input_field{
     color: white;
+}
+button:hover{
+    background-color: rgb(245, 224, 197);
 }
